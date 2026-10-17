@@ -1,0 +1,15 @@
+### assembling test04.asm
+assembled 6 words (0 warning(s)) -> test04.lst, test04.o
+assembler exit status: 0
+
+### executing test04.o
+loaded 6 words from test04.o
+memory dump before execution:
+00000000 00000600 00000700 00000013 00000200
+00000004 00000014 00000012
+HALT reached after 6 instructions
+A=21 (0x00000015)  B=42 (0x0000002A)  PC=00000006  SP=00010000
+memory dump after execution:
+00000000 00000600 00000700 00000013 00000200
+00000004 00000014 00000012
+emulator exit status: 0

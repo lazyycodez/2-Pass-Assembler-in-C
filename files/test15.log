@@ -1,0 +1,13 @@
+### assembling test15.asm
+assembled 3 words (0 warning(s)) -> test15.lst, test15.o
+assembler exit status: 0
+
+### executing test15.o
+loaded 3 words from test15.o
+memory dump before execution:
+00000000 0186A000 00000004 00000012
+RUNTIME ERROR: memory address 100000 out of range at PC=00000001 (after 2 instructions)
+A=100000 (0x000186A0)  B=0 (0x00000000)  PC=00000002  SP=00010000
+memory dump after execution:
+00000000 0186A000 00000004 00000012
+emulator exit status: 2
