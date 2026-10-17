@@ -1,0 +1,13 @@
+### assembling test02.asm
+WARNING line 5: label 'label' defined but never used
+ERROR line 6: duplicate label 'label'
+ERROR line 7: no such label 'nonesuch'
+ERROR line 8: '08ge' is not a number
+ERROR line 9: missing operand
+ERROR line 10: unexpected operand
+ERROR line 11: extra text at end of line
+ERROR line 12: bogus label name '0def'
+ERROR line 13: unknown mnemonic 'fibble'
+ERROR line 14: unknown mnemonic '0def'
+9 error(s), 1 warning(s): no output produced
+assembler exit status: 1

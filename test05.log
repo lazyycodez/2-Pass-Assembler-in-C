@@ -1,0 +1,20 @@
+### assembling test05.asm
+WARNING line 6: label 'start' defined but never used
+assembled 13 words (1 warning(s)) -> test05.lst, test05.o
+assembler exit status: 0
+
+### executing test05.o
+loaded 13 words from test05.o
+memory dump before execution:
+00000000 00001000 00000801 FFFFFC01 FFFFC000
+00000004 00000300 00000009 00000500 00000007
+00000008 00000210 00006F00 00000012 0000DE00
+0000000C 00000012
+HALT reached after 11 instructions
+A=222 (0x000000DE)  B=-13 (0xFFFFFFF3)  PC=0000000D  SP=00010000
+memory dump after execution:
+00000000 00001000 00000801 FFFFFC01 FFFFC000
+00000004 00000300 00000009 00000500 00000007
+00000008 00000210 00006F00 00000012 0000DE00
+0000000C 00000012
+emulator exit status: 0
