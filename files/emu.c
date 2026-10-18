@@ -1,26 +1,9 @@
-/*****************************************************************************
+/*
 TITLE: Emulator for the IITPSx processor
-AUTHOR: <your name>          USER ID: <your id>
+AUTHOR: <Yash Trivedi>        ROLL NO: <2501CS53>
 Declaration of Authorship:
 I hereby declare that this source file is my own work.
-
-USAGE:   emu [options] file.o
-OPTIONS: -trace    print registers and the instruction before each step
-         -before   dump the loaded memory image before running
-         -after    dump the memory image after running
-         -isa      print the instruction set and exit
-         -limit N  stop after N instructions (default 10,000,000); this
-                   catches infinite loops
-
-MACHINE: registers A, B (an internal stack), PC and SP, 32 bits each.
-         Memory is MEM_SIZE words; the program is loaded at address 0 and
-         SP starts at MEM_SIZE (the stack grows downwards).
-         The PC is incremented before an instruction executes, as in the
-         specification.
-
-EXIT:    0 = program executed HALT, 2 = runtime error, 1 = usage / load
-         error.
-*****************************************************************************/
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

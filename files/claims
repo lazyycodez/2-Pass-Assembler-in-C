@@ -1,18 +1,11 @@
-CS2102 MiniProject 2026 - IITPSx assembler and emulator
-Name: <your name>        User id: <your id>
+CS2102 MiniProject 2026 
+Name: <Yash Trivedi>        Roll No: <2501CS53>
 
 Build:   make            (or: gcc asm.c -o asm ; gcc emu.c -o emu)
 Test:    make test       (writes testNN.lst, testNN.o and testNN.log)
 Compile flags checked: gcc -std=c89 -pedantic -W -Wall -Wpointer-arith
                        -Wwrite-strings -Wstrict-prototypes   (no warnings)
 
-==========================  GENERAL  ==========================
-[x] Source files carry my name, user id and a declaration of authorship
-    (asm.c, emu.c).
-[x] Compile without error under -std=c89 -pedantic.
-[x] Compile without warnings under the full flag set above.
-[x] Consistent formatting, sectioned program structure, descriptive
-    names and explanatory comments on every function and type.
 
 ==========================  ASSEMBLER (asm.c)  ==========================
 [x] Single routine (run_pass) used for both passes; pass 1 emits no code

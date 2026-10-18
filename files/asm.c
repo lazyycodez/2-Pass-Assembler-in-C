@@ -1,3 +1,9 @@
+//TITLE: Emulator for the IITPSx processor
+//AUTHOR: <Yash Trivedi>          ROLL NO: <2501CS53>
+//Declaration of Authorship:
+// I hereby declare that this source file is my own work.
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
